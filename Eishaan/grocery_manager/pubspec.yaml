@@ -1,0 +1,19 @@
+name: grocery_manager
+description: A Flutter application for managing grocery lists.
+
+environment:
+  sdk: "3.5.4"  # Specify compatible Dart SDK versions
+  flutter: "3.24.5"    # Specify compatible Flutter versions
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  provider: ^6.0.5
+  json_annotation: ^4.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.4.0
+  json_serializable: ^6.6.0
